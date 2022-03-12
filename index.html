@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desciption" content="login">
+    <meta name="keywords" content="HTML, CSS, JS, Javascript, login, Tudor Adrian">
+    <meta name="author" content="Tudor Adrian">
+    <title>Assignment 2 - Website Building</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./js/bootstrap.bundle.min.js" defer></script>    
+    <script src="./js/jquery-3.6.0.min.js" defer></script>    
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <form>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col position-relative"> 
+                    <label for="username" id="usernamelabel">Username:</label><br>
+                    <input type="text" id="usernameinput" name="username" class="border border-secondary col-12">
+                    <i class="fa fa-check fs-4 text-success checkV d-none" id="checkVU" aria-hidden="true"></i>
+                    <i class="fa fa-times fs-4 text-danger closeX d-none" id="closeXU" aria-hidden="true"></i>
+                </div>
+            </div>
+          
+           <div class="row mt-2">
+               <div class="col position-relative">
+                    <label for="password" id="passwordlabel">Password:</label><br>
+                    <input type="password" id="passwordinput" name="password" class="border border-secondary col-12">
+                    <i class="fa fa-check fs-4 text-success fs-4 checkV d-none" id="checkVP" aria-hidden="true"></i>
+                    <i class="fa fa-times fs-4 text-danger fs-4 closeX d-none" id="closeXP" aria-hidden="true"></i>
+                </body>
+               </div>        
+           </div>
+           
+           <div class="row mt-3">
+               <div class="col">
+                    <input type="submit" class="col-12" id="login" value="Login">
+               </div>
+           </div>
+        </div>       
+    </form>
+    <div class="container">
+        <div class="row">
+            <div class="col ms-3 mt-2">
+                <p class="my-0 d-none" id="peu">*please enter username</p>
+                <p class="my-0 d-none" id="pevu">*please enter a valid username</p>
+                <p class="my-0 d-none" id="pep">*please enter password</p>
+                <p class="my-0 d-none" id="pevp">*please enter a valid password</p>
+                <p class="my-0 d-none" id="sl">Successful login!</p>
+            </div>
+        </div>
+    </div>
+  
+</html>

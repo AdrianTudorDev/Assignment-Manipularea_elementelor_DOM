@@ -1,0 +1,10 @@
+.checkV{
+position: absolute;
+top: 52%;
+right: max(4%, 15px);
+}
+.closeX{
+position: absolute;
+top: 52%;
+right: max(4%, 15px);
+}
